@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+   
+}
+.header, footer {
+    background-color: #1f2937;
+
+}
+h1, h2 {
+    color: #f9faf8;
+}
+h2 {
+    font: weight 900px;
+    font-size: 48px;
+}
+h1 {
+    font-size: 24px;
+}
+.headerlinks, .subtextheader {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.upper header {
+    display: flex;
+    flex-direction: row;
+    
+}
+.header {
+    display: flex;
+}
+.headerlinks {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 24px;
+
+}
+.bottomheader {
+    display: flex;
+    flex-direction: row;
+}
